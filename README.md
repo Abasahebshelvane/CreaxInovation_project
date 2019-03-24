@@ -32,45 +32,45 @@ Here's the tutorial project structure:
 src
 app
 _directives
-alert.component.html
-alert.component.ts
-index.ts
+     .alert.component.html
+     .alert.component.ts
+    .index.ts
 _guards
-auth.guard.ts
-index.ts
+   .auth.guard.ts
+   .index.ts
 _helpers
-fake-backend.ts
-error.interceptor.ts
-jwt.interceptor.ts
-index.ts
+   .fake-backend.ts
+   .error.interceptor.ts
+   .jwt.interceptor.ts
+   .index.ts
 _models
-user.ts
-index.ts
+   .user.ts
+   .index.ts
 _services
-alert.service.ts
-authentication.service.ts
-user.service.ts
-index.ts
-home
-home.component.html
-home.component.ts
-index.ts
-login
-login.component.html
-login.component.ts
-index.ts
-register
-register.component.html
-register.component.ts
-index.ts
-admindashboard
-_admindashboard.component.ts
-_admindashboard.component.html
-app.component.html
-app.component.ts
-app.module.ts
-app.routing.ts
-index.html
+  .alert.service.ts
+  .authentication.service.ts
+  .user.service.ts
+  .index.ts
+_home
+    .home.component.html
+    .home.component.ts
+    .index.ts
+_login
+    .login.component.html
+    .login.component.ts
+    .index.ts
+_register
+    .register.component.html
+    .register.component.ts
+    .index.ts
+_admindashboard
+    .admindashboard.component.ts
+    .admindashboard.component.html
+_app.component.html
+_app.component.ts
+_app.module.ts
+_app.routing.ts
+_index.html
 main.ts
 polyfills.ts
 typings.d.ts
